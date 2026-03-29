@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  zoom: 0.7; /* Thu nhỏ toàn bộ trang web xuống 70% để vừa màn hình */
+  overflow-x: hidden; /* Ẩn thanh cuộn ngang bên dưới đáy màn hình */
+}
+
+img {
+  max-width: 100%;
+}
 .landing-page,
 .landing-page * {
   box-sizing: border-box;
